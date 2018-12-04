@@ -50,6 +50,8 @@
                 </li>
                 {% if user.is_authenticated %}
                     <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="/accounts/profile">Profile</a>
+                    <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="/accounts/logout">Logout</a>
                     </li>
                 {% else %}

@@ -13,10 +13,63 @@
 
                 <h1>{% trans "Profile" %}</h1>
 
-                <p></p>
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-4">
+                        <div class="float-left">
+                            Username:
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="float-left">
+                            {{ user.username }}
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-4">
+                        <div class="float-left">
+                            Email:
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="float-left">
+                            {{ user.email }}
+                        </div>
 
-                <p>{% user.username %}</p>
-                <p>{% user.email %}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-4">
+                        <div class="float-left">
+                            First Name:
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="float-left">
+                            {{ user.first_name }}
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-4">
+                        <div class="float-left">
+                            Last Name:
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="float-left">
+                            {{ user.last_name }}
+                        </div>
+
+                    </div>
+                </div>
+
+
 
 
             </div>
