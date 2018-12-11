@@ -7,6 +7,7 @@ A sample django project configured with nginx in a Debian Stretch VM.
 2. Python/Django
 3. nginx
 
+## Project description
 
 ### Installed
 1. Django
@@ -29,4 +30,11 @@ pass: admin1234
 ```
 
 
-###
+## Install the Debian VM and connect with it
+First install Debian in the Oracle Virtual Box. Then connect the vm with ssh from host OS. The ssh connection preparation is described in - https://github.com/shahjalalh/ssh-to-debian-vm
+
+Note: Now the VM will act like DigitalOcean droplet. Let's call it **Debian droplet**. :P
+
+
+## Install Nginx in the Debian droplet
+
