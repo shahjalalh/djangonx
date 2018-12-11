@@ -36,5 +36,12 @@ First install Debian in the Oracle Virtual Box. Then connect the vm with ssh fro
 Note: Now the VM will act like DigitalOcean droplet. Let's call it **Debian droplet**. :P
 
 
-## Install Nginx in the Debian droplet
+## Install Git and Nginx in the Debian droplet
+First install git in the droplet
+
+```
+shahjalal@shahjalal:~$ su -
+root@shahjalal:~# apt-get update
+root@shahjalal:~# apt-get install git
+```
 
