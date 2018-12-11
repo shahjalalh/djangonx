@@ -37,11 +37,13 @@ Note: Now the VM will act like DigitalOcean droplet. Let's call it **Debian drop
 
 
 ## Install Git and Nginx in the Debian droplet
-First install git in the droplet
+### First install git in the droplet
 
 ```
 shahjalal@shahjalal:~$ su -
 root@shahjalal:~# apt-get update
 root@shahjalal:~# apt-get install git
 ```
+
+### Install virtual environment in Python 3
 
