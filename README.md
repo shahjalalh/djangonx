@@ -102,7 +102,21 @@ Our project git repo is https://github.com/shahjalalh/djangonx.git. We need to c
 (py3env) djangonx $ pip install -r requirements.txt
 (py3env) djangonx $ python manage.py runserver 0.0.0.0:8000
 ```
+### Create a new port forwarding 
+Create a new port forwarding same as https://github.com/shahjalalh/ssh-to-debian-vm, **Step 3: Enable port forwarding**. And restart the server
 
+Name: web
+Protocol: TCP
+Host IP:
+Host Port: 8000
+Guest IP:
+Guest Port: 8000
 
+Enter into the guest server and run the Django app
+```
+(py3env) djangonx $ python manage.py runserver 0.0.0.0:8000
+```
+
+Now browse http://localhost:8000/ from host OS browser.
 
 
